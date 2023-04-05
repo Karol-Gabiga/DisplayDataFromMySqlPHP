@@ -17,13 +17,13 @@
 	</script>
 
     <h1> List of users </h1>
-    <br>
+    <br>s
     <table class="table">
         <thead>
             <tr> 
-                <th>Temperature</th>
-                <th>Humidity</th>
-                <th>Light</th>
+                <th>Logging time</th>
+                <th>Lastname</th>
+                <th>Firstname</th>
             </tr>
         </thead>
 
