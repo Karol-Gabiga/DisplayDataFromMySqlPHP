@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>List of users</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body style="margin: 50px;">
@@ -17,13 +17,14 @@
 	</script>
 
     <h1> List of users </h1>
-    <br>s
+    <br>
     <table class="table">
         <thead>
             <tr> 
                 <th>Logging time</th>
                 <th>Lastname</th>
                 <th>Firstname</th>
+                <th>Access</th>
             </tr>
         </thead>
 
@@ -52,6 +53,7 @@
                 <td>". $row["Time"] ."</td>
                 <td>". $row["Lastname"] ."</td>
                 <td>". $row["Name"] ."</td>
+                <td>". $row["Access"] ."</td>
                 </tr>";
 
             }
