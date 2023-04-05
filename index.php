@@ -49,9 +49,9 @@
 
             while($row = $result->fetch_assoc()){
                 echo "<tr> 
-                <td>". $row["Humidity"] ."</td>
-                <td>". $row["Temperature"] ."</td>
-                <td>". $row["Light"] ."</td>
+                <td>". $row["Time"] ."</td>
+                <td>". $row["Lastname"] ."</td>
+                <td>". $row["Name"] ."</td>
                 </tr>";
 
             }
